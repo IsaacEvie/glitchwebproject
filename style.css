@@ -3,6 +3,9 @@ body {
   background: black; /* Set background color to black */
   color: #ffffff; /* Set text color to white */
 }
+h1 {
+  color : #000;
+}
 
 /* Primary button style */
 .btn-primary {
