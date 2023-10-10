@@ -79,25 +79,25 @@
                 <img src="img/p3.jpg" alt="Image 1" class="img-fluid">
             </div>
             <div class="col-lg-4">
-    <img src="img/p2.jpg" alt="Image 2" class="img-fluid" id="p2-image">
-</div>
-
-<!-- Hidden message popup -->
-<div id="message-popup" style="display: none;">
-    <p>I love you Evelin Theresia Tampubolon &lt;3</p>
-</div>
-
-<script>
-    // Get references to the image and message popup elements
-    const p2Image = document.getElementById('p2-image');
-    const messagePopup = document.getElementById('message-popup');
-
-    // Add a click event listener to the p2 image
-    p2Image.addEventListener('click', function () {
-        // Show the message popup when the image is clicked
-        messagePopup.style.display = 'block';
-    });
-</script>
+                <img src="img/p2.jpg" alt="Image 2" class="img-fluid" id="p2-image">
+            </div>
+            
+            <!-- Hidden message popup -->
+            <div id="message-popup" style="display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);">
+                <h1>I love you Evelin Theresia Tampubolon, semangatttt &lt;3 &lt;3</h1>
+            </div>
+            
+            <script>
+                // Get references to the image and message popup elements
+                const p2Image = document.getElementById('p2-image');
+                const messagePopup = document.getElementById('message-popup');
+            
+                // Add a click event listener to the p2 image
+                p2Image.addEventListener('click', function () {
+                    // Show the message popup when the image is clicked
+                    messagePopup.style.display = 'block';
+                });
+            </script>
             <div class="col-lg-4">
                 <img src="img/p1.jpg" alt="Image 3" class="img-fluid">
             </div>
